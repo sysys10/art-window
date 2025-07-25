@@ -1,6 +1,6 @@
 'use client'
 import React, { useState, useRef, ChangeEvent } from 'react'
-import { Upload, FileImage, Loader2, Download } from 'lucide-react'
+import { Upload, FileImage, Loader2 } from 'lucide-react'
 import Image from 'next/image'
 
 interface ProcessResponse {

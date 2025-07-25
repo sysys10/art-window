@@ -19,10 +19,10 @@ const s3 = new S3Client({
 
 /* 고정 프롬프트 ------------------------------------------------------ */
 const prompt = `
-Transform the input image into a simplified outdoor background by removing all unnecessary or complex elements.
-Only retain minimal, natural components such as trees, skies, mountains, or grass.
-Remove any people, animals, vehicles, or man‑made objects.
-The result should be a clean, calm, and uncluttered background inspired by the input.
+Transform the input image into a bright and dreamlike outdoor background, removing all unnecessary or complex elements.
+Preserve only minimal, natural components such as softly glowing skies, gentle trees, distant mountains, or serene grass fields.
+Eliminate all people, animals, vehicles, and man-made objects.
+The final result should evoke a calm, ethereal, and uncluttered atmosphere inspired by nature.
 `.trim()
 
 /* ------------------------------------------------------------------ */
