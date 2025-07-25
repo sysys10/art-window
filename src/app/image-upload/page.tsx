@@ -210,7 +210,7 @@ export default function GeminiImageProcessor() {
                 Processing Result
               </h3>
               <div className="bg-gray-50 border rounded-lg p-4">
-                <Image src={result} width={400} height={400} />
+                <Image alt="results" src={result} width={400} height={400} />
               </div>
             </div>
           )}
