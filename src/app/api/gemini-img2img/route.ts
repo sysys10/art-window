@@ -19,10 +19,11 @@ const s3 = new S3Client({
 
 /* 고정 프롬프트 ------------------------------------------------------ */
 const prompt = `
-Transform the input image into a bright and dreamlike outdoor background, removing all unnecessary or complex elements.
-Preserve only minimal, natural components such as softly glowing skies, gentle trees, distant mountains, or serene grass fields.
-Eliminate all people, animals, vehicles, and man-made objects.
-The final result should evoke a calm, ethereal, and uncluttered atmosphere inspired by nature.
+Transform the input image into a bright, dreamlike outdoor scene with a soft and ethereal atmosphere.
+Remove all unnecessary or complex elements.
+natural features such as a glowing sky, gentle trees, distant misty mountains, or serene grassy fields.
+The composition should be airy, uncluttered, and inspired by peaceful nature.
+Soft lighting, pastel tones, and a subtle glow are encouraged.
 `.trim()
 
 /* ------------------------------------------------------------------ */
